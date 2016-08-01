@@ -5,14 +5,16 @@ private String ISBN;
 private String title;
 private String author;
 private String edition;
+private int price;
 
-public BookDisplay(String iSBN, String title, String author, String edition) {
+public BookDisplay(String iSBN, String title, String author, String edition, int price) {
 	super();
 	
 	ISBN = iSBN;
 	this.title = title;
 	this.author = author;
 	this.edition = edition;
+	this.price = price;
 }
 
 public String getISBN() {
@@ -45,6 +47,14 @@ public String getEdition() {
 
 public void setEdition(String edition) {
 	this.edition = edition;
+}
+
+public int getPrice() {
+	return price;
+}
+
+public void setPrice(int price) {
+	this.price = price;
 }
  
 
