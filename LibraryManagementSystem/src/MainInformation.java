@@ -2,21 +2,24 @@
 import java.util.Scanner;
 public class MainInformation {
 public static void main(String[]args){
-	System.out.println("Enter ISBN = 1234");
+	System.out.println("Enter ISBN");
 	Scanner scanner=new Scanner(System.in);
 	String str1=scanner.next();
-	System.out.println("Book name = Java");
+	System.out.println("Book name");
 	String str2=scanner.next();
-	System.out.println("Enter author = John");
+	System.out.println("Enter author");
 	String str3=scanner.next();
-	System.out.println("Enter edition = 2");
+	System.out.println("Enter edition");
 	String str4=scanner.next();
+	
+	System.out.println("Enter categories");
+	String str5=scanner.next();
 	
 	System.out.println("ISBN"+str1); 
 	System.out.println("name"+str2);
 	System.out.println("author"+str3);
 	System.out.println("edition"+str4);
-	
+	System.out.println("categories"+str5);
 }
 
 
