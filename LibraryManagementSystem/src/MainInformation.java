@@ -11,16 +11,12 @@ public static void main(String[]args){
 	String str3=scanner.next();
 	System.out.println("Enter edition");
 	String str4=scanner.next();
-	
-	System.out.println("Enter categories");
-	String str5=scanner.next();
+
 	
 	System.out.println("ISBN"+str1); 
 	System.out.println("name"+str2);
 	System.out.println("author"+str3);
 	System.out.println("edition"+str4);
-	System.out.println("categories"+str5);
+
 }
-
-
 }

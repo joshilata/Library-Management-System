@@ -7,7 +7,8 @@ private String author;
 private String edition;
 
 
-public BookDisplay(String iSBN, String title, String author, String edition) {
+
+public BookDisplay(String iSBN, String title, String author, String edition, String categories) {
 	super();
 	
 	ISBN = iSBN;
