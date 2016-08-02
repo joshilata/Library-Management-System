@@ -3,7 +3,7 @@ public class BookDisplay {
  
 private String ISBN;
 private String title;
-private String author;
+private String name;
 private String edition;
 
 
@@ -13,7 +13,7 @@ public BookDisplay(String iSBN, String title, String author, String edition, Str
 	
 	ISBN = iSBN;
 	this.title = title;
-	this.author = author;
+	this.name = name;
 	this.edition = edition;
 	
 }
@@ -35,11 +35,11 @@ public void setTitle(String title) {
 }
 
 public String getAuthor() {
-	return author;
+	return name;
 }
 
 public void setAuthor(String author) {
-	this.author = author;
+	this.name = name;
 }
 
 public String getEdition() {
